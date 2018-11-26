@@ -16,6 +16,6 @@ class CsvSourceExampleTest {
             "2, 3, 5"
     })
     void sum(int a, int b, int sum) {
-        assertEquals(sum, a + b);
+        assertEquals(sum, b);
     }
 }
